@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="EnterArrow.png" />
+    <None Remove="firsttry.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscordRichPresence" Version="1.0.150" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="EnterArrow.png" />
+    <Resource Include="firsttry.png" />
+  </ItemGroup>
+
+</Project>
